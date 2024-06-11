@@ -7,7 +7,7 @@
 
 3. pip freeze > requirements.txt    #to create requirement.txt file.
 
-4. pip freeze    #list of packages and verssion.
+4. pip freeze    #list of packages and version.
 
 build==1.2.1
 click==8.1.7

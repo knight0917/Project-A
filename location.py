@@ -1,5 +1,6 @@
 from geopy.geocoders import Nominatim
 
+
 # Initialize the Nominatim geocoder
 geolocator = Nominatim(user_agent="geoapiExercises")
 
@@ -11,8 +12,14 @@ def get_lat_lon(place_name):
     else:
         return None, None
 
-# Example usage
+
 place_name = input("Enter place name: ")
 latitude, longitude = get_lat_lon(place_name)
-
 print(f"The latitude and longitude of {place_name} are {latitude}, {longitude}")
+
+
+
+
+
+
+
